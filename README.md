@@ -1,33 +1,38 @@
 # Task-1
 How to run the code in terminal 
-# Create a virtual environment for the backend
+Create a virtual environment for the backend
 virtualenv .venv
 
-# Activate the virtual environment
+Activate the virtual environment
+
 source .venv/bin/activate
 
-# Install the packages
+ Install the packages
+ 
 pip install Django==4.2.1
 
-# Install nodemon gloablly to auto-reload the server when making changes in the files
+Install nodemon gloablly to auto-reload the server when making changes in the files
+
 npm install -g nodemon
 
-# cd into the frontend directory
+cd into the frontend directory
+
 cd frontend
 
-# Install packages for the React app
+Install packages for the React app
+
 npm install
 
-# run the frontend
+run the frontend
 
 npm start
 
-# open another terminal
+open another terminal
 
 source .venv/bin/activate
 cd .. && cd backend
 
-# To run Django dev server and watch file changes in the app
+To run Django dev server and watch file changes in the app
 
 nodemon --exec python manage.py runserver
 
@@ -36,12 +41,12 @@ nodemon --exec python manage.py runserver
 
 cd backend
 
-# migrate to database (mysql )
+migrate to database (mysql )
 
 python manage.py makemigrations
 python manage.py migrate 
 
- # then run the server again
+ then run the server again
 
 )
 
