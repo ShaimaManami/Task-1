@@ -1,6 +1,7 @@
 # Task-1
 How to run the code in terminal 
 Create a virtual environment for the backend
+
 virtualenv .venv
 
 Activate the virtual environment
