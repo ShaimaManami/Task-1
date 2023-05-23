@@ -24,7 +24,7 @@ SECRET_KEY = 'django-insecure-2u)yt^(c7na0(2x+tirgmzd7yxr*^)8l5c*nfex@f=58$0e=x0
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-ALLOWED_HOSTS=['localhost']
+
 
 
 # Application definition
@@ -81,9 +81,9 @@ WSGI_APPLICATION = 'DJCrudAPI.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'task_schema',
+        'NAME': '',
         'USER': 'root',
-        'PASSWORD': 'Shaima24$',
+        'PASSWORD': '',
         'HOST':'localhost',
         'PORT': 3306
     }
