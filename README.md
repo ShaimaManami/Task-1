@@ -45,6 +45,5 @@ python manage.py migrate
 
 )
 
-"weather_data": {"max_temp": 27.1, "min_temp": 10.1, "icon": 1}
 
 
