@@ -6,8 +6,8 @@ import pymysql
 connection = pymysql.connect(
 host="localhost",
 user="root",
-password="Shaima24$",
-database="task_schema",
+password="",
+database="",
 port=3306
 )
 
