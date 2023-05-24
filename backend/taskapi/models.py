@@ -31,7 +31,7 @@ class UserCoordinates(models.Model):
         weather_url = f"https://api.meteomatics.com/todayT00:00:00ZP1D:PT1H/t_2m:C,precip_1h:mm,wind_speed_10m:ms,wind_dir_10m:d,weather_symbol_1h:idx/{self.latitude},{self.longitude}/json"
         payload={}
         headers = {
-        'Authorization': 'Basic bm9uZV9iYWJhcjowVHBPdEQ4VHk3'
+        'Authorization': 'Basic bnVsbF9hbG1hbmFtaTpPR1dhYTlnNjlD'
         }
 
         response = requests.request("GET", weather_url, headers=headers, data=payload)
@@ -101,7 +101,7 @@ class Cities(models.Model):
         weather_url = f"https://api.meteomatics.com/todayT00:00:00ZP1D:PT1H/t_2m:C,precip_1h:mm,wind_speed_10m:ms,wind_dir_10m:d,weather_symbol_1h:idx/{self.latitude},{self.longitude}/json"
         payload={}
         headers = {
-        'Authorization': 'Basic bm9uZV9iYWJhcjowVHBPdEQ4VHk3'
+        'Authorization': 'Basic bnVsbF9hbG1hbmFtaTpPR1dhYTlnNjlD'
         }
 
         response = requests.request("GET", weather_url, headers=headers, data=payload)
