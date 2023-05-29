@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'authentication',
     'taskapi',
     'rest_framework',
-    'weatherapi',
     'corsheaders'
 ]
 
