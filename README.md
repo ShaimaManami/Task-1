@@ -24,6 +24,7 @@ cd frontend
 
 npm install
 npm run build
+npm install moment --save
 
 - run the frontend
 
