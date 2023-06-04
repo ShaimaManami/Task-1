@@ -159,7 +159,7 @@ const CityChart = () => {
                     <tr>
                         <th>Parameters</th>
                         {data.x_axis.map((header) => (
-                            <th >{moment(header).utc().format('hh:mm a')}</th>
+                            <th >{moment(header).utc().format('hh:mma')}</th>
                         ))}
                     </tr>
                 </thead>
