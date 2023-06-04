@@ -23,7 +23,9 @@ cd frontend
 - Install packages for the React app
 
 npm install
+
 npm run build
+
 npm install moment --save
 
 - run the frontend
