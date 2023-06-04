@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { WiDaySunny, WiDayCloudyGusts, WiDayCloudy, WiDayFog, WiDayRain, WiDayRainMix, WiDayShowers, WiDaySnow, WiDaySprinkle, WiDayStormShowers, WiDayThunderstorm, WiNightClear, WiNightCloudy, WiNightCloudyGusts, WiNightFog, WiNightRain, WiNightRainMix, WiNightShowers, WiNightSnow, WiNightSprinkle, WiNightStormShowers, WiNightThunderstorm } from 'react-icons/wi';
 import './WeatherChart.css'
+import moment from "moment";
 
 const CityChart = () => {
     const queryParameters = new URLSearchParams(window.location.search)
@@ -158,7 +159,7 @@ const CityChart = () => {
                     <tr>
                         <th>Parameters</th>
                         {data.x_axis.map((header) => (
-                            <th >{header}</th>
+                            <th >{moment(header).utc().format('hh:mm a')}</th>
                         ))}
                     </tr>
                 </thead>
