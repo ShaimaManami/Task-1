@@ -137,9 +137,10 @@ const MainPage = () => {
                     break;
             }
 
-            return iconComponent;
-        };
-    }
+
+        }
+        return iconComponent;
+    };
 
     const updateWeatherData = (id) => {
         axios({
@@ -211,7 +212,7 @@ const MainPage = () => {
                     <h1>Weather for {city.name_en}</h1>
                     <h2>Maximum Temperature: {weatherData.max_temp}</h2>
                     <h2>Minimum Temperature: {weatherData.min_temp}</h2>
-                    
+                    <h2>Weather Icon: {getWeatherIcon(weatherData.weather_icon)}</h2>         
                     <button><Link to={`/city-chart?id=${city.id}`}> open hourly weather's data </Link>
                     </button> 
                 </div> : null
