@@ -10,6 +10,7 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
 svg{
@@ -127,7 +128,6 @@ hr {
 
 button{
     -webkit-text-size-adjust: 100%;
-    font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica,Arial,sans-serif;
     -webkit-font-smoothing: antialiased;
     -webkit-box-direction: normal;
     --search-input-position-right: 0px;
