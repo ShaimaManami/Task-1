@@ -38,6 +38,7 @@ source .venv/bin/activate
 cd .. && cd backend
 
 - To run Django dev server and watch file changes in the app
+- python -m pip install django-cors-headers
 
 nodemon --exec python manage.py runserver
 
